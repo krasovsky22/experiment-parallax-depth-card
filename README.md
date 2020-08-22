@@ -4,6 +4,10 @@
 
 [![NPM](https://img.shields.io/npm/v/experiment-parallax-depth-card.svg)](https://www.npmjs.com/package/experiment-parallax-depth-card) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
+## [Demo](https://krasovsky22.github.io/experiment-parallax-depth-card/)
+
+![Test Image 1](screenshot.gif)
+
 ## Install
 
 ```bash
