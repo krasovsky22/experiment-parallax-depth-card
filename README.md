@@ -15,12 +15,16 @@ npm install --save experiment-parallax-depth-card
 ```tsx
 import React, { Component } from 'react'
 
-import MyComponent from 'experiment-parallax-depth-card'
+import { ParallaxDepthCard } from 'experiment-parallax-depth-card'
 import 'experiment-parallax-depth-card/dist/index.css'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <ParallaxDepthCard backgroundUrl={URL} title='Some Card'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </ParallaxDepthCard>
+    )
   }
 }
 ```
